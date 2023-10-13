@@ -1,0 +1,52 @@
+body {
+ background: #373737;
+ color: #FDDDdd;
+
+}
+
+button {
+    background-color: #000000;
+    font-size: 5vw;
+    color:#FEFEFE;
+}
+
+title {
+    color: #FEFEFE;
+    font-size: 36;
+}
+.heading1 {
+    color: #ed2929;
+    text-align: center;
+    font-size:10vw;
+}
+
+p {
+    color: #FEFEFE;
+}
+
+img {
+    max-width:100%;
+    height:auto;
+}
+image {
+    max-width:100%;
+    height:auto;
+}
+
+
+.left, .right {
+  float: left;
+  width: 20%; /* The width is 20%, by default */
+}
+
+.main {
+  float: left;
+  width: 60%; /* The width is 60%, by default */
+}
+
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 800px) {
+  .left, .main, .right {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}

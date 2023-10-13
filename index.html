@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <neta name="viewport", content="initial-scale=1, width=device-width"></neta>
+        <link rel="stylesheet", href="/style.css"/>
+        <title>Page</title>
+        <script src="/js/script1.js"></script>
+    </head>
+    <body>
+        <h1 class="heading1">Love you</h1>
+      <!--  <p>This is the first paragraph, but I don
+            't know whu the title is not showing.
+        </p>
+
+        <form action="/greet" method="get">
+        <input autocomplete="off" aurofocus name="name" placeholder="Name" type="text">
+        <button type="submit">Greet</button>
+        </form>
+           <a href="/greet.html">   </a>
+    -->
+     
+            <button onclick="alert('You clicked me, It hurts!')">
+                Try and click</button>
+     
+<br><br>
+<h2>Play Rock, Paper, Scissors with me</h2>
+<button onclick="
+    computerMove=pickMove();
+    if (computerMove==='rock') {result='You tie';}
+    else if (computerMove==='paper') {result='You lose';}
+    else {result='You win';};
+    alert('You picked rock. Computer picked ' + computerMove + '. ' + result);
+    ">Rock</button>
+<button onclick="
+    computerMove=pickMove();
+    if (computerMove==='rock') {result='You win';}
+    else if (computerMove==='paper') {result='You tie';}
+    else {result='You lose';};
+    alert('You picked paper. Computer picked ' + computerMove + '. ' + result);
+    ">Paper</button>
+<button onclick="
+    computerMove= pickMove();
+    if (computerMove==='rock') {result='You lose';}
+    else if (computerMove==='paper') {result='You win';}
+    else {result='You tie';};
+    alert('You picked scissors. Computer picked ' + computerMove + '. ' + result);
+">Scissors</button>
+
+	<script>
+	/*	document.body.innerHTML = 'hello';
+       /* document.body.innerHTML = 'ciao';
+     /*   alert('haha');
+    */
+        let x = 2;
+        console.log(x);
+        x = 4;
+        console.log(x);
+        /* ==, != compared trying to type case to same type, 
+        / 5 == '5.00' -> true
+        / ===,!== hard check with tyoe,
+        / 5 === '5' -> false
+        */
+        let result='';
+       let computerMove = '';
+
+        function pickMove() {
+            const randomNumber = Math.random();
+            if (randomNumber<1/3) {
+                computerMove='rock';
+            } else if (randomNumber<2/3) {
+                computerMove='paper';
+            } else {
+                computerMove='scissors';
+            }
+            return computerMove;
+        };
+    
+       
+    </script>
+
+    </body>
+
+    </html>
