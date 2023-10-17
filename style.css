@@ -6,18 +6,18 @@ body {
 
 button {
     background-color: #000000;
-    font-size: 5vw;
+    font-size: 2vw;
     color:#FEFEFE;
 }
 
 title {
     color: #FEFEFE;
-    font-size: 36;
+    font-size: 24;
 }
 .heading1 {
     color: #ed2929;
     text-align: center;
-    font-size:7vw;
+    font-size:5vw;
 }
 
 p {
