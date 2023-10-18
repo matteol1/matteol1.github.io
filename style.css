@@ -50,3 +50,34 @@ image {
     width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
   }
 }
+
+.menu {
+  width: 250px; /* Set the width of the menu */
+  background-color: #333; /* Set the background color */
+  color: #fff; /* Set the text color */
+  position: fixed; /* Fix the menu in place */
+  top: 0;
+  left: 0;
+  height: 100%; /* Make it cover the entire height of the page */
+}
+
+.menu ul {
+  list-style: none; /* Remove default list styles */
+  padding: 0;
+}
+
+.menu li {
+  padding: 10px;
+}
+
+/* Define styles for links in the menu */
+.menu a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Content container to push content to the right of the menu */
+.content {
+  margin-left: 270px; /* Adjust this value to leave space for the menu */
+  padding: 20px;
+}
