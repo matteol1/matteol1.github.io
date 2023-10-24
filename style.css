@@ -11,26 +11,36 @@ button {
 }
 
 title {
-    color: #FEFEFE;
+    color: #FDDDdd;
     font-size: 24;
 }
 .heading1 {
-    color: #ed2929;
+    color: #ed4949;
     text-align: center;
     font-size:5vw;
 }
 
 p {
-    color: #FEFEFE;
-    font-size: 16;
+    color: #FDDDdd;
+    font-size: 18;
 
 }
 
-img {
-    max-width:100%;
-    height:auto;
+a:link {
+  color: hotpink;
 }
-image {
+a:visited {
+  color: red;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  color: red;
+  text-decoration: underline;
+}
+
+image, img {
     max-width:100%;
     height:auto;
 }
