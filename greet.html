@@ -13,7 +13,7 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="#">Projects</a></li>
                 <li><a href="greet.html">Games</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#">Contact me</a></li>
             </ul>
         </div>
 
@@ -27,16 +27,39 @@
         <button type="submit">Greet</button>
         </form>
 
+
         <button onclick="
             alert('You clicked me!');
             ">
-            Try and click
+            Click
         </button>
 <br><br>
-        <H2> YOU LOST!
 
 
-        </div>
+<br><br>
+<h2>Play Rock, Paper, Scissors with me</h2>
+<button onclick="
+    computerMove=pickMove();
+    if (computerMove==='rock') {result='You tie';}
+    else if (computerMove==='paper') {result='You lose';}
+    else {result='You win';};
+    alert('You picked rock. Computer picked ' + computerMove + '. ' + result);
+    ">Rock</button>
+<button onclick="
+    computerMove=pickMove();
+    if (computerMove==='rock') {result='You win';}
+    else if (computerMove==='paper') {result='You tie';}
+    else {result='You lose';};
+    alert('You picked paper. Computer picked ' + computerMove + '. ' + result);
+    ">Paper</button>
+<button onclick="
+    computerMove= pickMove();
+    if (computerMove==='rock') {result='You lose';}
+    else if (computerMove==='paper') {result='You win';}
+    else {result='You tie';};
+    alert('You picked scissors. Computer picked ' + computerMove + '. ' + result);
+">Scissors</button>
+
 
 	<script>
 	/*	document.body.innerHTML = 'hello';
