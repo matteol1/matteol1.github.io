@@ -57,14 +57,14 @@ image, img {
 }
 
 /* Use a media query to add a breakpoint at 800px: */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1600px) {
   .left, .main, .right {
     width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
   }
 }
 
 .menu {
-  width: 250px; /* Set the width of the menu */
+  width: 230px; /* Set the width of the menu */
   background-color: #373737; /* Set the background color */
   color: #FDDDdd; /* Set the text color */
   position: fixed; /* Fix the menu in place */
@@ -90,6 +90,6 @@ image, img {
 
 /* Content container to push content to the right of the menu */
 .content {
-  margin-left: 270px; /* Adjust this value to leave space for the menu */
+  margin-left: 250px; /* Adjust this value to leave space for the menu */
   padding: 20px;
 }
