@@ -88,6 +88,9 @@ image, img {
   text-decoration: none;
 }
 
+.menu img {
+  max-width: 150;
+}
 /* Content container to push content to the right of the menu */
 .content {
   margin-left: 250px; /* Adjust this value to leave space for the menu */
