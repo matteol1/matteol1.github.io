@@ -96,3 +96,10 @@ image, img {
   margin-left: 250px; /* Adjust this value to leave space for the menu */
   padding: 20px;
 }
+
+.inline { 
+  display: inline-block; 
+  border: 1px solid red; 
+  margin:10px;
+  }
+  
