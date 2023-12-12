@@ -1,8 +1,25 @@
+:root {
+  color-scheme: light dark;
+}
 body {
+  color: light-dark(#373737, #FDDDdd);
+  background-color: light-dark(#FDDDdd, #373737);
+}
+
+.light {
+  /* forces light color-scheme */
+  color-scheme: light;
+}
+.dark {
+  /* forces dark color-scheme */
+  color-scheme: dark;
+}
+
+/*body {
  background: #373737;
  color: #FDDDdd;
 
-}
+}*/
 
 button {
     background-color: #000000;
@@ -22,7 +39,7 @@ title {
 
 p {
     color: #FDDDdd;
-    font-size: 20;
+    font-size: 24;
 
 }
 
