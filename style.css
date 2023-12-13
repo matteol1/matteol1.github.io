@@ -18,7 +18,6 @@ body {
 /*body {
  background: #373737;
  color: #FDDDdd;
-
 }*/
 
 button {
@@ -32,28 +31,28 @@ title {
     font-size: 24;
 }
 .heading1 {
-    color: #6e93c4;
+    color: light-dark(#603780, #6e63D4);
     text-align: center;
     font-size:3vw;
 }
 
 p {
-    color: #FDDDdd;
+    color: light-dark(#373737, #FDDDdd);
     font-size: 24;
-
 }
 
 a:link {
-  color: hotpink;
+  color: light-dark(#2277EE, hotpink);
+  
 }
 a:visited {
-  color: red;
+  color: light-dark(#992244, red);
 }
 a:hover {
   text-decoration: underline;
 }
 a:active {
-  color: red;
+  color: light-dark(#992244, red);
   text-decoration: underline;
 }
 /*
@@ -82,8 +81,9 @@ image, img {
 
 .menu {
   width: 230px; /* Set the width of the menu */
-  background-color: #373737; /* Set the background color */
-  color: #FDDDdd; /* Set the text color */
+  /*background-color: #373737; /* Set the background color */
+  /*color: #FDDDdd;*//* Set the text color*/
+  
   position: fixed; /* Fix the menu in place */
   top: 0;
   left: 0;
@@ -101,7 +101,7 @@ image, img {
 
 /* Define styles for links in the menu */
 .menu a {
-  color: #FDDDdd;
+  color: light-dark(#373737, #FDDDdd);
   text-decoration: none;
 }
 
