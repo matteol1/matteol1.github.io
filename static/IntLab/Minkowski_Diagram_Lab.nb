@@ -1,0 +1,320 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      9959,        311]
+NotebookOptionsPosition[      9183,        278]
+NotebookOutlinePosition[      9583,        295]
+CellTagsIndexPosition[      9540,        292]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Minkowski Diagrams", "Title",
+ CellChangeTimes->{{3.630145338504244*^9, 3.630145350773386*^9}, 
+   3.630145430936974*^9},
+ TextAlignment->Center,
+ TextJustification->0.],
+
+Cell[TextData[{
+ "In this lab you will use the large plastic Minkowski diagrams and erasable \
+markers to explore special relativity. Each group should have a Minkowski \
+diagram, a marker and a meter stick. To erase marks on the plastic diagram \
+just use a wet tissue.\n\nRemember that lines of constant time in frame S are \
+lines that are parallel to the ",
+ Cell[BoxData[
+  FormBox["x", TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ "-axis and lines of constant position are lines that are parallel to the ",
+ Cell[BoxData[
+  FormBox["t", TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ "-axis. Similarly lines of constant time in frame S\[CloseCurlyQuote] are \
+lines that are parallel to the ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"x", "'"}], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ "-axis and lines of constant position are lines that are parallel to the ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"t", "'"}], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ "-axis. Thus to find for example the time in the primed frame for space-time \
+point (",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     RowBox[{"c", " ", "t"}], ",", "x"}], ")"}], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ " plot the point and then draw a line that passes through the point and runs \
+parallel to the ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"x", "'"}], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ "-axis. The intersection of this line with the ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"ct", "'"}], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ "-axis gives the value of ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"c", " ", 
+    RowBox[{"t", "'"}]}], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ ". The value of \[Beta] for your Minkowski diagram is ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[Beta]", "=", 
+    RowBox[{"3", "/", "5"}]}], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ ". \n\nFor this lab you should record your diagram by taking a picture of it \
+with your phone. Make sure that you are happy with your photo before you \
+erase your diagram Your lab report should include the pictures along with \
+your calculations. Your conclusions and comments should as always be in \
+complete sentences and coherent paragraphs."
+}], "Text",
+ CellChangeTimes->{{3.6301453880872183`*^9, 3.630145470954376*^9}, {
+  3.630145509244109*^9, 3.630145521172501*^9}, {3.63014776009628*^9, 
+  3.630147988430765*^9}, {3.630148023593238*^9, 3.6301480547776318`*^9}, {
+  3.63014809011034*^9, 3.6301481610621758`*^9}, {3.630148205307027*^9, 
+  3.6301482138836727`*^9}, {3.630148306431345*^9, 3.630148309972459*^9}, {
+  3.630167896817532*^9, 3.6301678995767317`*^9}, {3.630168549675188*^9, 
+  3.630168553122366*^9}, {3.630168655775037*^9, 3.6301688538227243`*^9}, {
+  3.630169145604384*^9, 3.6301691491169167`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Exercises", "Subchapter",
+ CellChangeTimes->{{3.6301483306050367`*^9, 3.6301483723908443`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["1:", "Section",
+ CellChangeTimes->{{3.6301483861354513`*^9, 3.6301483920316763`*^9}}],
+
+Cell[TextData[{
+ "Consider a rod at rest in frame S. At ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"t", "=", "0"}], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ " one end of the rod is at ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"x", "=", "0"}], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ ", the other end is at ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"x", "=", "1"}], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ ". Drawn the world line of the rod in both frame S and frame S\
+\[CloseCurlyQuote]. From the diagram how long is the rod in S\
+\[CloseCurlyQuote]? Does this agree with your results from the Lorentz \
+transformations? "
+}], "Text",
+ CellChangeTimes->{{3.630148400880084*^9, 3.6301484480846148`*^9}, {
+   3.630149033993305*^9, 3.630149163366433*^9}, {3.630149626681369*^9, 
+   3.6301496373456593`*^9}, {3.6301499608329277`*^9, 3.630150090372157*^9}, {
+   3.630150179378577*^9, 3.6301502231457872`*^9}, {3.630150255757805*^9, 
+   3.630150442015091*^9}, {3.630168564027574*^9, 3.630168627901437*^9}, 
+   3.630169143328862*^9, 3.63016933977857*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["II:", "Section",
+ CellChangeTimes->{{3.630150513438932*^9, 3.630150516869563*^9}}],
+
+Cell[TextData[{
+ "Consider a clock at rest at ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"x", "=", "1"}], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ " in frame S. Draw the world line for the clock in both frames. Consider the \
+time difference ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["t", "2"], "-", 
+    SubscriptBox["t", "1"]}], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ "for the clock in frame S. It is convenient to take c ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["t", "1"], "=", "1"}], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ " and c ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["t", "2"], "=", 
+    RowBox[{"3", "/", "2"}]}], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ ". From you diagram how much time has elapsed in S\[CloseCurlyQuote]. What \
+are ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["x", "1"], "'"}], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ "and ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["x", "2"], "'"}], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ "? Does these agree with your results from the Lorentz transformation.s \
+Compute ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["\[CapitalDelta]s", "2"], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ "and ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox[
+    RowBox[{"\[CapitalDelta]s", "'"}], "2"], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ " both from your diagram and by using the Lorentz transformations."
+}], "Text",
+ CellChangeTimes->{{3.630150524270097*^9, 3.630150532038083*^9}, {
+   3.6301505717200127`*^9, 3.630150586808391*^9}, 3.630150809532712*^9, {
+   3.630151007595561*^9, 3.630151157865918*^9}, {3.630151187874789*^9, 
+   3.630151284128048*^9}, {3.630152181941662*^9, 3.630152181941695*^9}, {
+   3.630167242054914*^9, 3.6301672483985*^9}, {3.630169161403212*^9, 
+   3.630169338098625*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["III:", "Section",
+ CellChangeTimes->{{3.630150513438932*^9, 3.630150516869563*^9}, 
+   3.630172947970849*^9}],
+
+Cell[TextData[{
+ "A light signal is sent from the point in S  ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["p", "1"], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ "=",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{"c", " ", "t"}], ",", "x"}], ")"}], "=", 
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{"1", "/", "2"}], ",", 
+      RowBox[{"1", "/", "2"}]}], ")"}]}], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ " and recieved at ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["p", "2"], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ " also in S. At ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["p", "2"], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"x", "=", "1"}], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ ". Use your Minkoski diagram to find ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["p", "1"], "'"}], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ "and ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["p", "2"], "'"}], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ ". Show that these result agree with using the Lorentz transformations. From \
+the diagram compute and comment on ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["\[CapitalDelta]s", "2"], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ "and ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox[
+    RowBox[{"\[CapitalDelta]s", "'"}], "2"], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ "."
+}], "Text",
+ CellChangeTimes->{{3.630150524270097*^9, 3.630150532038083*^9}, {
+   3.6301505717200127`*^9, 3.630150586808391*^9}, 3.630150809532712*^9, {
+   3.630151007595561*^9, 3.630151157865918*^9}, {3.630151187874789*^9, 
+   3.630151284128048*^9}, {3.630152181941662*^9, 3.630152181941695*^9}, {
+   3.630167242054914*^9, 3.6301672483985*^9}, {3.630169161403212*^9, 
+   3.630169338098625*^9}, {3.630173340706456*^9, 3.630173683644763*^9}}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+},
+WindowToolbars->{"RulerBar", "EditBar"},
+WindowSize->{808, 911},
+WindowMargins->{{Automatic, 705}, {158, Automatic}},
+FrontEndVersion->"10.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (December 4, \
+2014)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 175, 4, 92, "Title"],
+Cell[758, 28, 2868, 68, 303, "Text"],
+Cell[CellGroupData[{
+Cell[3651, 100, 101, 1, 62, "Subchapter"],
+Cell[CellGroupData[{
+Cell[3777, 105, 91, 1, 64, "Section"],
+Cell[3871, 108, 1082, 26, 69, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4990, 139, 88, 1, 64, "Section"],
+Cell[5081, 142, 1938, 59, 93, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7056, 206, 115, 2, 64, "Section"],
+Cell[7174, 210, 1969, 63, 73, "Text"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)

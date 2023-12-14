@@ -21,13 +21,13 @@ body {
 }*/
 
 button {
-    background-color: #000000;
+    background-color: light-dark(#999999 #000000);
     font-size: 2vw;
-    color:#FEFEFE;
+    color: light-dark(#272727, #FEFEFE);
 }
 
 title {
-    color: #FDDDdd;
+    color: light-dark(#220022, #FDDDdd);
     font-size: 24;
 }
 .heading1 {
