@@ -3,7 +3,7 @@
 }
 body {
   color: light-dark(#373737, #FDDDdd);
-  background-color: light-dark(#FDDDdd, #373737);
+  background-color: light-dark(#FDDDdd, #555555);
 }
 
 .light {
@@ -38,12 +38,11 @@ title {
 
 p {
     color: light-dark(#373737, #FDDDdd);
-    font-size: 24;
+    font-size: 28;
 }
 
 a:link {
   color: light-dark(#2277EE, hotpink);
-  
 }
 a:visited {
   color: light-dark(#992244, red);
