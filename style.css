@@ -3,9 +3,12 @@
 }
 body {
   color: light-dark(#373737, #FDDDdd);
-  background-color: light-dark(#FDDDdd, #555555);
+  background-color: light-dark(#FDDDdd, #373737);
 }
-
+/*body {
+ background: #373737;
+ color: #FDDDdd;
+}*/
 .light {
   /* forces light color-scheme */
   color-scheme: light;
@@ -15,10 +18,7 @@ body {
   color-scheme: dark;
 }
 
-/*body {
- background: #373737;
- color: #FDDDdd;
-}*/
+
 
 button {
     background-color: light-dark(#999999 #000000);
@@ -37,7 +37,7 @@ title {
 }
 
 p {
-    color: light-dark(#373737, #FDDDdd);
+    color: light-dark(#373737, black);
     font-size: 28;
 }
 
