@@ -1,57 +1,43 @@
-:root {
-  color-scheme: light dark;
-}
 body {
-  color: light-dark(#373737, #FDDDdd);
-  background-color: light-dark(#FDDDdd, #373737);
+  color: #FDDDDD;
+  background-color: #373737;
 }
 /*body {
  background: #373737;
  color: #FDDDdd;
 }*/
-.light {
-  /* forces light color-scheme */
-  color-scheme: light;
-}
-.dark {
-  /* forces dark color-scheme */
-  color-scheme: dark;
-}
-
-
-
 button {
-    background-color: light-dark(#999999 #000000);
+    background-color: #000000;
     font-size: 2vw;
-    color: light-dark(#272727, #FEFEFE);
+    color: #FEFEFE;
 }
 
 title {
-    color: light-dark(#220022, #FDDDdd);
+    color: #FDDDdd;
     font-size: 24;
 }
 .heading1 {
-    color: light-dark(#603780, #6e63D4);
+    color: #6e63D4;
     text-align: center;
     font-size:3vw;
 }
 
 p {
-    color: light-dark(#373737, black);
+    color: #FDDDDD;
     font-size: 28;
 }
 
 a:link {
-  color: light-dark(#2277EE, hotpink);
+  color: hotpink;
 }
 a:visited {
-  color: light-dark(#992244, red);
+  color: red;
 }
 a:hover {
   text-decoration: underline;
 }
 a:active {
-  color: light-dark(#992244, red);
+  color: red;
   text-decoration: underline;
 }
 /*
@@ -100,7 +86,7 @@ image, img {
 
 /* Define styles for links in the menu */
 .menu a {
-  color: light-dark(#373737, #FDDDdd);
+  color: #FDDDdd;
   text-decoration: none;
 }
 
