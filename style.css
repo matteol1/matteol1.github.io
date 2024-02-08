@@ -1,5 +1,5 @@
 body {
-  color: #FDDDDD;
+  color: #FDEEEE;
   background-color: #373737;
 }
 /*body {
@@ -13,17 +13,20 @@ button {
 }
 
 title {
-    color: #FDDDdd;
+    color: #FDEEEE;
     font-size: 24;
 }
 .heading1 {
-    color: #6e63D4;
+    color: #c2baff;
     text-align: center;
     font-size:3vw;
 }
-
+div {
+  color: #FDEEEE;
+  font-size: 28;
+}
 p {
-    color: #FDDDDD;
+    color: #FDEEEE;
     font-size: 28;
 }
 
