@@ -2,10 +2,6 @@ body {
   color: #FDEEEE;
   background-color: #373737;
 }
-/*body {
- background: #373737;
- color: #FDDDdd;
-}*/
 button {
     background-color: #000000;
     font-size: 2vw;
@@ -14,7 +10,7 @@ button {
 
 title {
     color: #FDEEEE;
-    font-size: 24;
+    font-size: 24px;
 }
 .heading1 {
     color: #c2baff;
@@ -23,11 +19,10 @@ title {
 }
 div {
   color: #FDEEEE;
-  font-size: 28;
 }
 p {
     color: #FDEEEE;
-    font-size: 28px;
+    font-size: 20px;
 }
 
 a:link {
