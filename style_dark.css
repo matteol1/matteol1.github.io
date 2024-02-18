@@ -8,7 +8,20 @@ button {
     color: #FEFEFE;
 }
 .ldbutton {
-  color: linear-gradient(to right, #FEFEFE, #373737);
+background-color: gray;
+border: none; /* Remove default border */
+font-size: 22px; /* Font size */
+padding: 15px 32px; /* Padding (top and bottom) 15px, (left and right) 32px */
+text-align: center; /* Center text horizontally */
+text-decoration: none; /* Remove default text decoration */
+display: inline-block; /* Make button behave like a block-level element */
+/*margin: 4px 2px;  Margin (top and bottom) 4px, (left and right) 2px */
+/*cursor: pointer;  Add pointer cursor on hover */
+border-radius: 10px; /* Rounded corners */
+transition: background-color 0.3s; /* Smooth transition for background color */
+}
+.ldbutton:hover {
+background-color: #235549;
 }
 
 title {
