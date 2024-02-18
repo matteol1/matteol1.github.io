@@ -1,0 +1,108 @@
+body {
+  color: #373737;
+  background-color: #FDEEEE;
+}
+button {
+    background-color: #FEFEFE;
+    font-size: 2vw;
+    color: #000000;
+}
+
+title {
+    color: #224422;
+    font-size: 24px;
+}
+.heading1 {
+    color: #220055;
+    text-align: center;
+    font-size:3vw;
+}
+p {
+    color: #000033;
+    font-size: 20px;
+}
+
+a:link {
+  color: darkblue;
+}
+a:visited {
+  color: purple;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  color: purple;
+  text-decoration: underline;
+}
+.left, .right {
+  float: left;
+  width: 20%; /* The width is 20%, by default */
+}
+
+.main {
+  float: left;
+  width: 60%; /* The width is 60%, by default */
+}
+
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 1600px) {
+  .left, .main, .right {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+.menu {
+  width: 230px; /* Set the width of the menu */
+  /*background-color: #373737; /* Set the background color */
+  /*color: #FDDDdd;*//* Set the text color*/
+  
+  position: fixed; /* Fix the menu in place */
+  top: 0;
+  left: 0;
+  height: 100%; /* Make it cover the entire height of the page */
+}
+
+.menu ul {
+  list-style: none; /* Remove default list styles */
+  padding: 0;
+  font-size: 20px;
+}
+
+.menu li {
+  padding: 10px;
+  font-size: 20px;
+}
+/* Define styles for links in the menu */
+.menu a {
+  color: #000033;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.menu img {
+  max-width: 150;
+}
+/* Content container to push content to the right of the menu */
+.content {
+  margin-left: 250px; /* Adjust this value to leave space for the menu */
+  padding: 20px;
+}
+
+.inline { 
+  display: inline-block; 
+  /*border: 1px solid red; 
+  */margin:10px;
+  }
+
+  .centerimg {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+  .center {
+    display: block;
+    margin-left: 50%;
+    margin-right: 50%;
+    width: 50%;
+  }

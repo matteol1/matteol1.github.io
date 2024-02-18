@@ -17,3 +17,13 @@ function insertMenu() {
     // Send the request
     xhr.send();
 }
+
+/*Light/dark modes*/
+function toggleMode() {
+    const currentTheme = document.getElementById('theme').getAttribute('href');
+    const lightTheme = 'style_light.css';
+    const darkTheme = 'style_dark.css';
+    const theme = currentTheme === lightTheme ? darkTheme : lightTheme;
+
+    document.getElementById('theme').setAttribute('href', theme);
+}
