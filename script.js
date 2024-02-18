@@ -26,4 +26,13 @@ function toggleMode() {
     const theme = currentTheme === lightTheme ? darkTheme : lightTheme;
 
     document.getElementById('theme').setAttribute('href', theme);
+
+    localStorage.setItem('theme', theme);
+
+}
+
+// Check if theme preference is stored in local storage
+const storedTheme = localStorage.getItem('theme');
+if (storedTheme) {
+    document.getElementById('theme').setAttribute('href', storedTheme);
 }
