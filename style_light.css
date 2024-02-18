@@ -4,10 +4,12 @@ body {
 }
 button {
     background-color: #FEFEFE;
-    font-size: 2vw;
+    font-size: 26px;
     color: #000000;
 }
-
+.ldbutton {
+  color: linear-gradient(to right, #373737, #FEFEFE);
+}
 title {
     color: #224422;
     font-size: 24px;

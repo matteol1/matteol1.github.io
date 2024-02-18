@@ -3,9 +3,12 @@ body {
   background-color: #373737;
 }
 button {
-    background-color: #000000;
-    font-size: 2vw;
+    background-color: gray;
+    font-size: 26px;
     color: #FEFEFE;
+}
+.ldbutton {
+  color: linear-gradient(to right, #FEFEFE, #373737);
 }
 
 title {
@@ -16,9 +19,6 @@ title {
     color: #c2baff;
     text-align: center;
     font-size:3vw;
-}
-div {
-  color: #FDEEEE;
 }
 p {
     color: #FDEEEE;
@@ -38,18 +38,10 @@ a:active {
   color: red;
   text-decoration: underline;
 }
-/*
-image, img {
-    max-width:100%;
-    height:auto;
-}*/
-
-
 .left, .right {
   float: left;
   width: 20%; /* The width is 20%, by default */
 }
-
 .main {
   float: left;
   width: 60%; /* The width is 60%, by default */
@@ -61,7 +53,6 @@ image, img {
     width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
   }
 }
-
 .menu {
   width: 230px; /* Set the width of the menu */
   /*background-color: #373737; /* Set the background color */
