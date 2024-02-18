@@ -1,16 +1,22 @@
+:root {
+  /* Define custom color variable */
+  --my-fg-color: #FDEEEE;
+  --my-bg-color: #272727;
+}
+
 body {
-  color: #FDEEEE;
-  background-color: #373737;
+  color: var(--my-fg-color);
+  background-color: var(--my-bg-color);
 }
 button {
     background-color: gray;
-    font-size: 26px;
-    color: #FEFEFE;
+    font-size: 20px;
+    color: var(--my-fg-color);
 }
 .ldbutton {
 background-color: gray;
 border: none; /* Remove default border */
-font-size: 22px; /* Font size */
+font-size: 20px; /* Font size */
 padding: 15px 32px; /* Padding (top and bottom) 15px, (left and right) 32px */
 text-align: center; /* Center text horizontally */
 text-decoration: none; /* Remove default text decoration */
@@ -21,11 +27,11 @@ border-radius: 10px; /* Rounded corners */
 transition: background-color 0.3s; /* Smooth transition for background color */
 }
 .ldbutton:hover {
-background-color: #235549;
+background-color: #c2baff;
 }
 
 title {
-    color: #FDEEEE;
+    color: var(--my-fg-color);
     font-size: 24px;
 }
 .heading1 {
@@ -34,7 +40,7 @@ title {
     font-size:3vw;
 }
 p {
-    color: #FDEEEE;
+    color: var(--my-fg-color);
     font-size: 20px;
 }
 
@@ -90,7 +96,7 @@ a:active {
 
 /* Define styles for links in the menu */
 .menu a {
-  color: #FDDDdd;
+  color: var(--my-fg-color);
   text-decoration: none;
   font-size: 20px;
 }
